@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Importância das Embalagens - Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">📦 A Importância das Embalagens</h1>
+            <p class="subtitle">Descubra como embalagens impactam seu negócio</p>
+        </div>
+
+        <div class="carousel-container">
+            <div class="social-style">Social Ready</div>
+            
+            <div class="card-wrapper">
+                <div class="flashcard" id="flashcard">
+                    <div class="card-face card-front">
+                        <div class="card-icon" id="frontIcon">🤔</div>
+                        <div class="card-content">
+                            <div class="card-question" id="cardQuestion">
+                                Qual é o primeiro contato que o cliente tem com seu produto?
+                            </div>
+                            <div class="card-hint">Clique para descobrir a resposta</div>
+                        </div>
+                    </div>
+                    <div class="card-face card-back">
+                        <div class="card-icon" id="backIcon">💡</div>
+                        <div class="card-content">
+                            <div class="card-answer" id="cardAnswer">
+                                A embalagem! Ela é sua vitrine ambulante.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <button class="nav-btn" id="prevBtn">‹</button>
+            <div class="card-counter">
+                <span id="currentCard">1</span> de <span id="totalCards">5</span>
+            </div>
+            <button class="nav-btn" id="nextBtn">›</button>
+        </div>
+
+        <div class="progress-dots" id="progressDots"></div>
+
+        <div class="controls">
+            <button class="flip-btn" id="flipBtn">🔄 Ver Resposta</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
